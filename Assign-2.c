@@ -23,6 +23,26 @@ void f3()
     scanf("%d%d%d",&p,&r,&t);
     printf("SI is = %d",(p*r*t)/100);
 }
+//Q-4 volume cuboid
+void f4()
+{
+    int l,w,h;
+    printf("Enter length, width, and height. ");
+    scanf("%d%d%d",&l,&w,&h);
+    printf("Volume of cubiod %d",l*w*h);
+
+}
+//Q-5
+void f5()
+{
+    float cp,sp,p;
+    printf("Input cost price of 12 Bananas");
+    scanf("%f",&cp);
+    printf("Input Selling Price of 12 Bananas");
+    scanf("%f",&sp);
+    printf("Profit or Loss is %f",(sp-cp)/12*25);
+    
+}
 int main()
 {
     f3();
